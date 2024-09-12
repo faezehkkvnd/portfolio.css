@@ -1,0 +1,203 @@
+@font-face {
+    font-family: PlaypenSans-VariableFont_wght;
+    src: url(./assets/fonts/PlaypenSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Lobster-Regular;
+    src: url(./assets/fonts/Lobster-Regular.ttf);
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #4bbe64;
+    height: 50px;
+}
+
+.nav-logo p {
+    font-family: Lobster-Regular;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+
+.menu,
+.menu li {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.menu li,
+.menu li a {
+    list-style: none;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    color: #000;
+}
+
+.menu li a {
+    border-right: 1px solid #5ca86c;
+}
+
+.menu li a:hover {
+    color: #1d4b27;
+}
+
+.introduction-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    background-color: #000;
+    color: #Fff;
+    height: 800px;
+}
+
+.int-top-hi {
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 25px;
+}
+
+.int-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: #5ca86c;
+    font-size: 30px;
+
+}
+
+.int-img-speech {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    justify-content: center;
+
+}
+
+.int-img img {
+    width: 180px;
+    padding-top: 50px;
+}
+
+.int-speech {
+    max-width: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Projects {
+    background-color: rgb(209, 209, 209);
+    height: 900px;
+    margin-top: -30px;
+}
+
+.projects-title {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding: 50px;
+    color: rgb(9, 71, 28);
+}
+
+.projects-img-completed {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+}
+
+.projects-img img {
+    width: 300px;
+    justify-items: center;
+    padding-top: 100%;
+}
+
+.Projects-completed ul li {
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.achvements {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+.achvements-title {
+    font-size: 30px;
+    color: #4bbe64;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.achvements-explain {
+    align-self: center;
+}
+.contact-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(209, 209, 209);
+    height: 700px;
+}
+.contact-box-title{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding: 50px;
+    color: rgb(9, 71, 28);
+}
+
+.contact-box-content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-self: center;
+background-color: #000;
+width: 500px;
+color: #fff;
+padding: 50px;
+}
+.contact-box-content input{
+    width: 200px;
+    margin: 20px;
+}
+.contact-box-content textarea{
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+    margin-bottom: -30px;
+}
+.contact-box-content button,.contact-box-content button a{
+    margin:30px auto ;
+    width: 70px;
+    text-decoration: none;
+    color:#000
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #4bbe64;
+    height: 50px;
+    border-right: 1px solid black;
+    gap: 0;
+}
+.footer div ,.footer div a{
+    text-decoration: none;
+    color: #000;
+    border-right: 1px solid #5ca86c;
+
+}
+.footer div a:hover{
+    color: #1d4b27;
+}
